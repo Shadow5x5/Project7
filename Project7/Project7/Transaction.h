@@ -1,21 +1,13 @@
 #pragma once
 #include "Bank_card.h"
 #include <list>
+#include <Windows.h>
 class Transaction
 {
 private:
 	int Transaction_number;
 	std::list<int> Number_of_all_transactions;
 public:
-
-
-	int withdrawal_of_all_transactions() {
-		int number;
-		system("cls");
-		
-		return number;
-
-	}
 
 	virtual void Payment(Bank_card& BC){
 		std::string PersonalAccountNumber;

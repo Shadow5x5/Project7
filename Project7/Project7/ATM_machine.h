@@ -30,9 +30,27 @@ private:
 		std::cin >> number;
 		switch (number)
 		{
-		case 1: BC.setBalance(BC.getBalance() - 25); break;
-		case 2: BC.setBalance(BC.getBalance() - 50); break;
-		case 3: BC.setBalance(BC.getBalance() - 100); break;
+		case 1: 
+			if (BC.getBalance() < 25) {
+				std::cout << "There are not enough funds in your account!!!" << std::endl;
+			}
+			else {
+				BC.setBalance(BC.getBalance() - 25); 
+			}break;
+		case 2:
+			if (BC.getBalance() < 50) {
+				std::cout << "There are not enough funds in your account!!!" << std::endl;
+			}
+			else {
+				BC.setBalance(BC.getBalance() - 50);
+			}break;
+		case 3: 
+			if (BC.getBalance() < 100) {
+				std::cout << "There are not enough funds in your account!!!" << std::endl;
+			}
+			else {
+				BC.setBalance(BC.getBalance() - 100);
+			}break;
 		default:
 			break;
 		}
