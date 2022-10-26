@@ -1,0 +1,10 @@
+﻿  Payment_for_the_phone.cpp
+C:\Users\Shado\source\repos\Project7\Project7\Encryption.h(31,15): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+  Payment_of_a_fine_from_the_traffic_police.cpp
+C:\Users\Shado\source\repos\Project7\Project7\Encryption.h(31,15): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+  Payment_TV.cpp
+C:\Users\Shado\source\repos\Project7\Project7\Encryption.h(31,15): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+  Source.cpp
+C:\Users\Shado\source\repos\Project7\Project7\Encryption.h(31,15): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+  Создание кода...
+  Project7.vcxproj -> C:\Users\Shado\source\repos\Project7\x64\Debug\Project7.exe
